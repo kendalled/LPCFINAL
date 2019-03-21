@@ -3919,6 +3919,7 @@ input, select, textarea {
 
 					#wrapper > .main > header.accent1 + .tabs > .titles > .title {
 						color: #ffffff;
+						border-radius: 5px 5px 0px 0px;
 					}
 
 						#wrapper > .main > header.accent1 + .tabs > .titles > .title.active {
@@ -3928,7 +3929,7 @@ input, select, textarea {
 						}
 
 			#wrapper > .main > header.accent2 {
-				background-color: #80bb2d;
+				background-color: #ffa21E;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -3998,7 +3999,7 @@ input, select, textarea {
 					#wrapper > .main > header.accent2 .button.primary {
 						background-color: #ffffff;
 						box-shadow: none;
-						color: #80bb2d !important;
+						color: #ffa21E !important;
 					}
 
 						#wrapper > .main > header.accent2 input[type="submit"].primary:hover,
@@ -4044,7 +4045,7 @@ input, select, textarea {
 
 					#wrapper > .main > header.accent2 select option {
 						color: #ffffff;
-						background: #80bb2d;
+						background: #ffa21E;
 					}
 
 				#wrapper > .main > header.accent2 input[type="checkbox"] + label,
@@ -4061,7 +4062,7 @@ input, select, textarea {
 				#wrapper > .main > header.accent2 input[type="radio"]:checked + label:before {
 					background-color: #ffffff;
 					border-color: #ffffff;
-					color: #80bb2d;
+					color: #ffa21E;
 				}
 
 				#wrapper > .main > header.accent2 input[type="checkbox"]:focus + label:before,
@@ -4128,7 +4129,7 @@ input, select, textarea {
 				}
 
 				#wrapper > .main > header.accent2 + .tabs > .titles:before {
-					background-color: #80bb2d;
+					background-color: #ffa21E;
 				}
 
 				#wrapper > .main > header.accent2 + .tabs > .titles > .title {
@@ -4136,7 +4137,7 @@ input, select, textarea {
 				}
 
 					#wrapper > .main > header.accent2 + .tabs > .titles > .title.active {
-						color: #80bb2d;
+						color: #ffa21E;
 						background-color: #ffffff;
 						box-shadow: none;
 					}
@@ -4444,7 +4445,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .main.accent2 {
-			background-color: #80bb2d;
+			background-color: #ffa21E;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -4514,7 +4515,7 @@ input, select, textarea {
 				#wrapper > .main.accent2 .button.primary {
 					background-color: #ffffff;
 					box-shadow: none;
-					color: #80bb2d !important;
+					color: #ffa21E !important;
 				}
 
 					#wrapper > .main.accent2 input[type="submit"].primary:hover,
@@ -4560,7 +4561,7 @@ input, select, textarea {
 
 				#wrapper > .main.accent2 select option {
 					color: #ffffff;
-					background: #80bb2d;
+					background: #ffa21E;
 				}
 
 			#wrapper > .main.accent2 input[type="checkbox"] + label,
@@ -4577,7 +4578,7 @@ input, select, textarea {
 			#wrapper > .main.accent2 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #80bb2d;
+				color: #ffa21E;
 			}
 
 			#wrapper > .main.accent2 input[type="checkbox"]:focus + label:before,
