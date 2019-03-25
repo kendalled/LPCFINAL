@@ -2040,7 +2040,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #23b1ec;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #1f1f1f !important;
 		}
 
 			input[type="submit"].primary:hover,
