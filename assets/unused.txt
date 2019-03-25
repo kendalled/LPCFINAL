@@ -100,3 +100,9 @@
 				</li>
 			</ul>
 		</section>
+
+
+
+    <!-- video for header -->
+
+    <img src="images/lapelSVG.svg" alt="svg version of the lpc logo." style="max-width: 30em; height: auto;"/>

@@ -35,9 +35,8 @@ body {
 
 /* Kendall */
 #navLogo{
-	max-width: 14em;
+	max-width: 19em;
 	height: auto;
-	margin-top: 0.7em;
 }
 
 .noUL {
@@ -3460,6 +3459,12 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		cursor: default;
+	}
+
+	#c1{
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/header.jpg");
+		background-position: center center;
+		background-size: cover;
 	}
 
 		#banner:after {
