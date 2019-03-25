@@ -9,3 +9,94 @@
 </li>
 
 <!-- dropdown menu -->
+
+<!-- COIN SECTION -->
+
+		<!-- Section -->
+		<section id="one" class="main">
+			<header class="accent1">
+				<h2>Our Pins, Challenge Coins, & Keychains</h2>
+				<p>We are proud to have the most experienced art team, so you can feel confident we will take your logo or design and turn it in to a high-quality product.<br /><br /> All you need to do is send us your logo or sketch, and we will have a proof
+					back to you in a matter of a few hours!</p>
+			</header>
+			<ul class="tabs">
+				<li>
+					<h3>Lapel <span class="extra">Pins</span></h3>
+					<div class="spotlight">
+						<ul>
+							<li>
+								<h4>Magna accumsan</h4>
+								<p>Lorem in sem quis dui placerat ornare tra sed etiam veroeros consequat.</p>
+							</li>
+							<li>
+								<h4>Erat aliquam</h4>
+								<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
+							</li>
+						</ul>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+						<ul>
+							<li>
+								<h4>Neque veroeros</h4>
+								<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
+							</li>
+							<li>
+								<h4>Quis portitor</h4>
+								<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<h3>Challenge <span class="extra">Coins</span></h3>
+					<div class="spotlight">
+						<ul>
+							<li>
+								<h4>Erat aliquam</h4>
+								<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
+							</li>
+							<li>
+								<h4>Neque veroeros</h4>
+								<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
+							</li>
+						</ul>
+						<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+						<ul>
+							<li>
+								<h4>Quis portitor</h4>
+								<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
+							</li>
+							<li>
+								<h4>Magna accumsan</h4>
+								<p>Lorem in sem quis dui placerat ornare tra sed etiam veroeros consequat.</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<h3>Keychains<span class="extra"></span></h3>
+					<div class="spotlight">
+						<ul>
+							<li>
+								<h4>Neque veroeros</h4>
+								<p>Sed adipiscing ornare risus. Morbi lorem lentesque egestas sem consequat.</p>
+							</li>
+							<li>
+								<h4>Quis portitor</h4>
+								<p>Donec nec justo eget felis facilisis ferme Aenean dignissim pellen.</p>
+							</li>
+						</ul>
+						<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+						<ul>
+							<li>
+								<h4>Magna accumsan</h4>
+								<p>Lorem in sem quis dui placerat ornare tra sed etiam veroeros consequat.</p>
+							</li>
+							<li>
+								<h4>Erat aliquam</h4>
+								<p>Praesent dapibus, neque id cursus fauci quam erat volutpat nam dui mitin.</p>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</section>
