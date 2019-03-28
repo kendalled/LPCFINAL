@@ -35,6 +35,10 @@ body {
 }
 
 /* Kendall */
+
+#iframeHolder{
+  text-align: center;
+}
 .cc-selector input {
   margin: 0;
   padding: 0;
