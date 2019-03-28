@@ -60,92 +60,93 @@
 				<h2>Quote Request Form</h2>
 				<p><strong>Ready to get started? Fill out the form below for your free quote & art proof.</strong></p>
 			</header>
-			<div class="inner">
-				<div class="content" style="padding: 5em">
+			<div class="inner alt">
+				<div class="content">
 					<!--	<span class="image main"><img src="images/pic04.jpg" alt="" /></span>-->
-					<h3 style="text-align: center;">Pricing & Shipping</h3>
+					<h3 style="text-align: center;">Quote Request</h3>
 					<p><span class="image left"><img class="leftRight" src="#" alt=""></a></span>
 						Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at.
 						Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis
 						faucibus blandit ac phasellus.</p>
 
 					<div id="quoteForm">
-						<form method="post" action="#">
+						<form action="https://formspree.io/kendallkj00@gmail.com" method="post">
 							<div class="row gtr-uniform">
 								<!-- First Name -->
 								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="First Name">
+									<input type="text" name="First Name" id="demo-Fname" value="" placeholder="First Name">
 								</div>
 								<!-- Last Name -->
 								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name2" id="demo-name" value="" placeholder="Last Name">
+									<input type="text" name="Last Name" id="demo-Lname" value="" placeholder="Last Name">
 								</div>
 								<!-- Email -->
 								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email">
+									<input type="email" name="Email" id="demo-email" value="" placeholder="Email">
 								</div>
 								<!-- Phone Number -->
 								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-phone" id="demo-email" value="" placeholder="Phone Number">
+									<input type="text" name="Phone" id="demo-phone" value="" placeholder="Phone Number">
+								</div>
+								<!-- Break -->
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-low" name="Item" checked value="Lapel Pin">
+									<label for="demo-priority-low">Lapel Pin</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-normal" name="Item" value="Challenge Coin">
+									<label for="demo-priority-normal">Challenge Coin</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-high" name="Item" value="Keychain">
+									<label for="demo-priority-high">Keychain</label>
 								</div>
 								<!-- Break -->
 								<div class="col-12">
 									<!-- Image Radio Buttons -->
-									<div class="cc-selector-2">
-										<input id="offset" type="radio" name="creditcard" value="offset" />
-										<label class="drinkcard-cc offset" for="offset"></label>
-
-										<input id="softenamel" type="radio" name="creditcard" value="softenamel" />
+									<div id="padded" class="cc-selector-2" style="padding: 2em 0 2em 0;">
+										<input id="softenamel" type="radio" name="Pin Type" value="softenamel" />
 										<label class="drinkcard-cc softenamel" for="softenamel"></label>
 
-										<input id="cloisonne" type="radio" name="creditcard" value="cloisonne" />
-										<label class="drinkcard-cc cloisonne" for="cloisonne"></label>
+										<input id="silk" type="radio" name="Pin Type" value="silk" />
+										<label class="drinkcard-cc silk" for="silk"></label>
 
-										<input id="struck" type="radio" name="creditcard" value="struck" />
-										<label class="drinkcard-cc struck" for="struck"></label>
-
-										<input id="trading" type="radio" name="creditcard" value="trading" />
+										<input id="trading" type="radio" name="Pin Type" value="trading" />
 										<label class="drinkcard-cc trading" for="trading"></label>
 
-										<input id="silk" type="radio" name="creditcard" value="silk" />
-										<label class="drinkcard-cc silk" for="silk"></label>
+										<input id="offset" type="radio" name="Pin Type" value="offset" />
+										<label class="drinkcard-cc offset" for="offset"></label>
+
+										<input id="cloisonne" type="radio" name="Pin Type" value="cloisonne" />
+										<label class="drinkcard-cc cloisonne" for="cloisonne"></label>
+
+
+
+										<input id="struck" type="radio" name="Pin Type" value="struck" />
+										<label class="drinkcard-cc struck" for="struck"></label>
+
 									</div>
 									<!-- End Image Buttons -->
-									<select name="demo-quantity" id="demo-category">
+									<select name="Quantity" id="demo-category">
 										<option value="">- Quantity -</option>
-										<option value="1">100</option>
-										<option value="2">200</option>
-										<option value="3">300</option>
-										<option value="4">400</option>
-										<option value="5">500+</option>
+										<option value="100">100</option>
+										<option value="200">200</option>
+										<option value="300">300</option>
+										<option value="400">400</option>
+										<option value="500">500+</option>
 									</select>
 								</div>
-								<!-- Break -->
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-low" name="demo-priority" checked="">
-									<label for="demo-priority-low">Lapel Pin</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
-									<label for="demo-priority-normal">Challenge Coin</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-high" name="demo-priority">
-									<label for="demo-priority-high">Keychain</label>
-								</div>
+
 								<br />
 								<!-- Break -->
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-copy" name="demo-copy" checked>
-									<label for="demo-copy">Email me a copy</label>
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-human" name="demo-human">
+
+								<!--<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-human" name="'ON' if Real Customer">
 									<label for="demo-human">I am a human</label>
-								</div>
+								</div>-->
 								<!-- Break -->
 								<div class="col-12">
-									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									<textarea name="Design Details" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 								</div>
 								<!-- Break -->
 								<div class="col-12">
