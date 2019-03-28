@@ -35,8 +35,9 @@ body {
 
 /* Kendall */
 #navLogo{
-	max-width: 19em;
+	max-width: 18em;
 	height: auto;
+	padding-top: 0.5em;
 }
 
 .noUL {
