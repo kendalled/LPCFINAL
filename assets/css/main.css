@@ -106,22 +106,19 @@ body {
 }
 
 /* Extras */
-a:visited {
+.col-12 a:visited {
   color: #888
 }
 
-a {
+.col-12 a {
   color: #444;
   text-decoration: none;
 }
 
-p {
+.col-12 p {
   margin-bottom: .3em;
 }
 
-* {
-  font-family: monospace;
-}
 
 .cc-selector-2 input {
   margin: 0;
