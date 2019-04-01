@@ -76,6 +76,8 @@ body {
   background-image: url(https://i.imgur.com/Dp9Jn3t.png);
 }
 
+
+
 .cc-selector-2 input:active+.drinkcard-cc, .cc-selector input:active+.drinkcard-cc {
   opacity: .9;
 }
