@@ -52,6 +52,44 @@ body {
   z-index: 999;
 }
 
+/*ToolTip*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: .5em;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -4em;
+  margin-top: -6em;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -1em;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .offset {
   background-image: url(https://i.imgur.com/Wag4L8F.png);
 }
@@ -75,8 +113,6 @@ body {
 .struck {
   background-image: url(https://i.imgur.com/Dp9Jn3t.png);
 }
-
-
 
 .cc-selector-2 input:active+.drinkcard-cc, .cc-selector input:active+.drinkcard-cc {
   opacity: .9;
@@ -2169,7 +2205,7 @@ label {
   display: block;
   font-size: 0.9rem;
   font-weight: 400;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0 0;
 }
 
 input[type="text"],
