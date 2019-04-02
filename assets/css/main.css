@@ -119,6 +119,16 @@ body {
   background-image: url(https://i.imgur.com/Dp9Jn3t.png);
 }
 
+.noColor {
+  background-image: url(https://i.imgur.com/Z6JVfjL.png);
+}
+.oneColor {
+  background-image: url(https://i.imgur.com/qEbbEET.png);
+}
+.bothColor {
+  background-image: url(https://i.imgur.com/WJhNlii.png);
+}
+
 .cc-selector-2 input:active+.drinkcard-cc, .cc-selector input:active+.drinkcard-cc {
   opacity: .9;
 }
