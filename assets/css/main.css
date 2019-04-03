@@ -221,7 +221,8 @@ span.cc {
   border-radius: 5px;
   background-color: #fff;
   max-width: 25em;
-  margin: 2em;
+  margin: 1em;
+
 }
 
 .cardy img {
@@ -230,9 +231,6 @@ span.cc {
   padding: 0 0 0 0;
 }
 
-.cardy p {
-  padding-bottom: 1em;
-}
 
 .cardy:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -1310,11 +1308,6 @@ hr {
 }
 
 @media screen and (max-width: 980px) {
-  #bannerLogo {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    padding-right: 0em;
-  }
 
   .row {
     display: flex;
@@ -3075,10 +3068,7 @@ table.alt tbody tr td {
     align-items: stretch;
   }
 
-  #bannerLogo {
-    padding-right: 2em;
-    padding-left: 2em;
-  }
+
 
   .posts>* {
     -moz-flex-shrink: 1;
