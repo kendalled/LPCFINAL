@@ -75,7 +75,7 @@
 					</ul>
 -->
 					<h2>Our 3 Step Process Makes Ordering Simple.</h2>
-					<div class="features" style="margin-right: 0px;">
+					<div class="features" style="margin-right: 1em;">
 
 						<section class="cardy">
 
@@ -122,15 +122,15 @@
 
 		<!-- video and design -->
 		<section id="two" class="main accent2">
-			<header style="padding-bottom: 1em;">
-				<h2>About Our Company</h2>
+			<header style="padding-bottom: 1em; text-align: center;">
+				<h2>Our Ordering Process</h2>
 				<ul class="actions" style="justify-content: center;">
-					<li><a href="#vidCard" class="button large wide primary" id="button">Watch Video</a></li>
+					<li style="margin-right: 20px;"><a href="#button" class="button large wide icon fa-download primary" id="button">Watch Video</a></li>
 				</ul>
 			</header>
 			<div class="inner">
 
-				<div class="vidCard">
+				<div class="vidCard" id="vidCard">
 					<br />
 					<h3 style="color: #000;">Over 20 Years of Design Experience - Get Your Free <a class="noUL2" href="quote.html" title="Links to quote form">Art Proof</a> today!</h3>
 
@@ -149,7 +149,7 @@
 					<h2 style="text-align: center;">Testimonials</h2>
 					<blockquote><b>Lapel Pins & Coins has helped me design a wonderful pin. Their artists are incredibly talented - as I just had a rough idea of what I wanted. I'll be back soon! <br />~ Eleanor M.</b></blockquote>
 					<ul class="actions special">
-						<li><a href="shipping.html" class="button fit wide primary scrolly">Read More</a></li>
+						<li><a href="shipping.html" class="button primary scrolly">Read More</a></li>
 					</ul>
 				</div>
 			</div>
@@ -168,11 +168,11 @@
 						<article>
 							<a href="#" class="image" title="Links to Soft Enamel Pins Page."><img src="images/pic03.png" alt="Soft Enamel Pin Material Sample" /></a>
 							<div class="content">
-								<h3>Enamel Pins</h3>
+								<h2 class="specialHeader">Enamel Pins</h2>
 								<h4>High-Detail</h4>
 								<p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
 								<ul class="actions">
-									<li><a href="#" class="button large wide primary">Enamel Pins</a></li>
+									<li><a href="#" class="button wide fit primary">Enamel Pins</a></li>
 								</ul>
 							</div>
 						</article>
@@ -181,11 +181,11 @@
 						<article>
 							<a href="#" class="image" title="Links to Trading Pins Page."><img src="images/pic03.png" alt="Trading Pin Material Sample" /></a>
 							<div class="content">
-								<h3>Trading Pins</h3>
+								<h2 class="specialHeader">Trading Pins</h2>
 								<h4>Fast Production</h4>
 								<p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
 								<ul class="actions">
-									<li><a href="#" class="button wide fit primary">More</a></li>
+									<li><a href="#" class="button wide fit primary">Trading Pins</a></li>
 								</ul>
 							</div>
 						</article>
@@ -194,11 +194,11 @@
 						<article>
 							<a href="#" class="image" title="Links to Offset Printed Pins Page."><img src="images/pic03.png" alt="Offset Printed Pin Material Sample" /></a>
 							<div class="content">
-								<h3>Cloisonne Pins</h3>
+								<h2 class="specialHeader">Cloisonne Pins</h2>
 								<h4>Jewelry Quality</h4>
 								<p>Feugiat ultrices sed nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Lorem nulla sed gravida non magna.</p>
 								<ul class="actions">
-									<li><a href="#" class="button primary">More</a></li>
+									<li><a href="#" class="button wide fit primary">Cloisonne Pins</a></li>
 								</ul>
 							</div>
 						</article>
@@ -270,6 +270,8 @@
 			$('#button').click(function() {
 				if (!$('#iframe').length) {
 					$('#iframeHolder').html('<iframe title="About Video" width="640" height="360" src="https://www.youtube.com/embed/GwDGLVv2WB4" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>');
+					// Makes #vidCard Visible, display:none by default
+					document.getElementById('vidCard').style.display = "block";
 				}
 			});
 		});
