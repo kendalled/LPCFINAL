@@ -124,6 +124,9 @@
 		<section id="two" class="main accent2">
 			<header style="padding-bottom: 1em;">
 				<h2>About Our Company</h2>
+				<ul class="actions" style="justify-content: center;">
+					<li><a href="#vidCard" class="button large wide primary" id="button">Watch Video</a></li>
+				</ul>
 			</header>
 			<div class="inner">
 
@@ -131,13 +134,15 @@
 					<br />
 					<h3 style="color: #000;">Over 20 Years of Design Experience - Get Your Free <a class="noUL2" href="quote.html" title="Links to quote form">Art Proof</a> today!</h3>
 
-<!--
+
 					<div class="iframe-container">
-						<iframe title="About Video" width="640" height="360" src="https://www.youtube.com/embed/GwDGLVv2WB4" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+						<div id="iframeHolder">
+
+						</div>
 					</div>
 					<br />
 
--->
+
 				</div>
 				<br />
 				<div class="testimonial">
@@ -259,17 +264,17 @@
 	<script src="assets/js/main.js"></script>
 
 	<!--AJAX Loading of iFrame-->
-	<!--
+
 	<script>
 		$(function() {
 			$('#button').click(function() {
 				if (!$('#iframe').length) {
-					$('#iframeHolder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/GwDGLVv2WB4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+					$('#iframeHolder').html('<iframe title="About Video" width="640" height="360" src="https://www.youtube.com/embed/GwDGLVv2WB4" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>');
 				}
 			});
 		});
 	</script>
--->
+
 
 </body>
 
