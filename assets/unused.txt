@@ -275,42 +275,59 @@
      Break -->
 
 
+     <div id="c2" class="content secondary">
+       <div class="inner">
 
-     <div class="features" style="margin-right: 1em;">
 
-       <section class="cardy">
-
-         <br />
-         <a href="pins/3dsample.html" title="Links to Quote Page" class="noUL2">
-           <img src="images/PAPER.svg" alt="Logo to represent the shipping services" />
-           <h3>Submit a Request</h3>
-         </a>
-         <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
+         <!--
          <ul class="actions special">
-           <li><a href="quote.html" class="button fit primary scrolly">Free Quote</a></li>
+           <li><a href="quote.html" class="button fit  primary scrolly">Free Quote</a></li>
+           <li><a href="quote.html" class="button fit  primary scrolly">Learn More</a></li>
          </ul>
-         <br />
-       </section>
+     -->
+         <h2>Our 3 Step Process Makes Ordering Simple.</h2>
+         <!-- SLIDER -->
 
-       <section class="cardy">
-         <br />
-         <img src="images/COMPUTER.svg" alt="Logo to represent the proofing process." />
-         <h3>Art Proof is Designed</h3>
-         <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
-         <ul class="actions special">
-           <li><a href="#two" class="button fit primary scrolly">Watch Video</a></li>
-         </ul>
-         <br />
-       </section>
-       <section class="cardy">
-         <br />
-         <img src="images/BOX.svg" alt="Logo to represent the shipping services" />
-         <h3>Your Order is Shipped</h3>
-         <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
-         <ul class="actions special">
-           <li><a href="shipping.html" class="button fit primary scrolly">Shipping Info</a></li>
-         </ul>
-         <br />
-       </section>
+         <div class="features slider">
+
+           <div class="cardy">
+
+             <br />
+             <a href="pins/3dsample.html" title="Links to Quote Page" class="noUL2">
+               <img src="images/PAPER.svg" alt="Logo to represent the shipping services" />
+               <h3>Submit a Request</h3>
+             </a>
+             <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
+             <ul class="actions special">
+               <li><a href="quote.html" class="button wide large primary scrolly">Free Quote</a></li>
+             </ul>
+             <br />
+           </div>
+
+           <div class="cardy">
+             <br />
+             <img src="images/COMPUTER.svg" alt="Logo to represent the proofing process." />
+             <h3>Art Proof is Designed</h3>
+             <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
+             <ul class="actions special">
+               <li><a href="#two" class="button wide large primary scrolly">Watch Video</a></li>
+             </ul>
+             <br />
+           </div>
+
+           <div class="cardy">
+             <br />
+             <img src="images/BOX.svg" alt="Logo to represent the shipping services" />
+             <h3>Your Order is Shipped</h3>
+             <p><strong>Feel free to <a class="noUL" href="tel:+18443954464" title="Link to call Lapel Pins & Coins">Call Us</a> or E-mail Us with your design ideas.</strong></p>
+             <ul class="actions special">
+               <li><a href="shipping.html" class="button large wide primary scrolly">Shipping Info</a></li>
+             </ul>
+             <br />
+           </div>
+
+         </div>
+
+       </div>
 
      </div>
