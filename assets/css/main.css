@@ -36,6 +36,17 @@ body {
 
 /* Kendall */
 
+#bannerLogo {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 24.5em;
+  height: auto;
+  padding: 2em 2em .5em 2em;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+
 .vidCard {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
@@ -44,7 +55,7 @@ body {
   margin: 1em;
   text-align: center;
   max-width: 100%;
-  height: 20em;
+  height: 19em;
   margin-left: 3%;
   padding: 1em;
   display: none;
@@ -75,7 +86,7 @@ body {
 }
 
 .testimonial {
-  background-color: #23b1ec;
+  background-color: #ff9e18;
   width: 100%;
   height: 30%;
   border-radius: 8px;
@@ -318,24 +329,33 @@ span.cc {
 }
 
 .cardy {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 0em 1em 1em 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.2);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   border-radius: 5px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   max-width: 25em;
-  margin: .5em;
+  color: #000;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 2em;
+  max-height: 23em;
 
 }
 
 .cardy img {
-  max-width: 12em;
+  max-width: 10em;
   height: auto;
   padding: 0 0 0 0;
 }
 
 
+
+
 .cardy:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: #fff;
 }
 
 .leftRight {
@@ -457,7 +477,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #002D5D;
   color: #3b3b3b;
 }
 
@@ -3681,7 +3701,7 @@ body {
 }
 
 #c1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.25)), url("../../images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -3743,7 +3763,7 @@ body {
 
 #banner .content.secondary {
   padding: 4.5rem 0 2.5rem 0;
-  background-color: #e0e0e0;
+  background-color: #eaeaea;
 }
 
 #banner .features {
@@ -4675,7 +4695,7 @@ body.is-preload #banner .content.primary {
 }
 
 #wrapper>.main.accent2 {
-  background-color: #ffa21E;
+  background-color: #002D5D;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -4875,7 +4895,7 @@ body.is-preload #banner .content.primary {
 }
 
 #wrapper>.main.alt {
-  background-color: #f7f7f7;
+  background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 1280px) {
