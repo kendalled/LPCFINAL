@@ -85,11 +85,11 @@ body {
 }
 
 .testimonial {
-  background-color: #ff9e18;
+  background-color: #f1f1f1;
   width: 100%;
   height: 30%;
   border-radius: 8px;
-  padding: 1em;
+  padding: 2em 1em 0em 1em;
 }
 
 @media screen and (min-width: 335px){
@@ -4762,9 +4762,9 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary,
 #wrapper>.main.accent2 button.primary,
 #wrapper>.main.accent2 .button.primary {
-  background-color: #ffffff;
+  background-color: #ff9e18;
   box-shadow: none;
-  color: #002d5d !important;
+  color: white !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary:hover,
