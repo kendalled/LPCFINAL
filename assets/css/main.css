@@ -4773,7 +4773,8 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary:hover,
 #wrapper>.main.accent2 button.primary:hover,
 #wrapper>.main.accent2 .button.primary:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 45, 93, 0.9);
+
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary:active,
