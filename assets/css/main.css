@@ -4737,8 +4737,8 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 button,
 #wrapper>.main.accent2 .button {
   background-color: transparent;
-  box-shadow: inset 0 0 0 3px #ffffff;
-  color: #ffffff !important;
+  box-shadow: inset 0 0 0 3px #ff9e18;
+  color: #ff9e18 !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"]:hover,
@@ -4762,9 +4762,9 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary,
 #wrapper>.main.accent2 button.primary,
 #wrapper>.main.accent2 .button.primary {
-  background-color: #ff9e18;
-  box-shadow: none;
-  color: white !important;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #002d5d;
+  color: #002D5D !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary:hover,
