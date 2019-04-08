@@ -46,7 +46,6 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.28);
 }
 
-
 .vidCard {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
@@ -76,7 +75,7 @@ body {
 
 .content .specialHeader {
   text-align: center;
-  color: #ff9e18;
+  color: #000;
   font-size: 1.5em;
   font-weight: 550;
 }
@@ -4708,7 +4707,7 @@ body.is-preload #banner .content.primary {
 }
 
 #wrapper>.main.accent2 strong, #wrapper>.main.accent2 b {
-  color: #ffffff;
+  color: #f1f1f1;
 }
 
 #wrapper>.main.accent2 h1, #wrapper>.main.accent2 h2, #wrapper>.main.accent2 h3, #wrapper>.main.accent2 h4, #wrapper>.main.accent2 h5, #wrapper>.main.accent2 h6 {
