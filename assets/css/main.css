@@ -4736,10 +4736,11 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"],
 #wrapper>.main.accent2 button,
 #wrapper>.main.accent2 .button {
-  background-color: white;
+  background-color: transparent;
   /*HHG*/
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.2);
-  color: #002d5d !important;
+  box-shadow: inset 0 0 0 2px #ff9e18;
+  color: #ff9e18 !important;
+  transition: transform 150ms linear;
 }
 
 #wrapper>.main.accent2 input[type="submit"]:hover,
@@ -4747,7 +4748,9 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"]:hover,
 #wrapper>.main.accent2 button:hover,
 #wrapper>.main.accent2 .button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: inset 0 0 0 4px #ff9e18;
+  			-webkit-transform: translateY(-0.25em);
+				transition: transform 150ms linear;
 }
 
 #wrapper>.main.accent2 input[type="submit"]:hover:active,
@@ -4755,7 +4758,8 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"]:hover:active,
 #wrapper>.main.accent2 button:hover:active,
 #wrapper>.main.accent2 .button:hover:active {
-  background-color: rgba(255, 255, 255, 0.25);
+  			-webkit-transform: translateY(-0.25em);
+				transition: transform 150ms linear;
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary,
@@ -4763,9 +4767,10 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary,
 #wrapper>.main.accent2 button.primary,
 #wrapper>.main.accent2 .button.primary {
-  background-color: #002D5D;
-  box-shadow: none;
-  color: white !important;
+  background-color: #fff;
+  /*HHG*/
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #000 !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary:hover,
@@ -4773,7 +4778,8 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary:hover,
 #wrapper>.main.accent2 button.primary:hover,
 #wrapper>.main.accent2 .button.primary:hover {
-  background-color: rgba(0, 45, 93, 0.9);
+  background-color: #fff;
+  color: white;
 
 }
 
@@ -4783,6 +4789,7 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 button.primary:active,
 #wrapper>.main.accent2 .button.primary:active {
   background-color: rgba(255, 255, 255, 0.75);
+
 }
 
 #wrapper>.main.accent2 label {
