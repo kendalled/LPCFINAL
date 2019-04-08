@@ -85,7 +85,7 @@ body {
 }
 
 .testimonial {
-  background-color: #f1f1f1;
+  background-color: #ff9e18;
   width: 100%;
   height: 30%;
   border-radius: 8px;
@@ -4736,9 +4736,10 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"],
 #wrapper>.main.accent2 button,
 #wrapper>.main.accent2 .button {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 3px #ff9e18;
-  color: #ff9e18 !important;
+  background-color: white;
+  /*HHG*/
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #002d5d !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"]:hover,
@@ -4746,7 +4747,7 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"]:hover,
 #wrapper>.main.accent2 button:hover,
 #wrapper>.main.accent2 .button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #wrapper>.main.accent2 input[type="submit"]:hover:active,
@@ -4762,9 +4763,9 @@ body.is-preload #banner .content.primary {
 #wrapper>.main.accent2 input[type="button"].primary,
 #wrapper>.main.accent2 button.primary,
 #wrapper>.main.accent2 .button.primary {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px #002d5d;
-  color: #002D5D !important;
+  background-color: #002D5D;
+  box-shadow: none;
+  color: white !important;
 }
 
 #wrapper>.main.accent2 input[type="submit"].primary:hover,
