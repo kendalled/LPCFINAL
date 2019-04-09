@@ -55,7 +55,7 @@ body {
 /* Base buttony Styles */
 .buttony{
 
-	border-radius: 8px;
+	border-radius: 6px;
 	cursor: pointer;
 	display: inline-block;
 	line-height: 1;
