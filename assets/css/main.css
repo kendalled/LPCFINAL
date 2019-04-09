@@ -172,6 +172,11 @@ body {
 /*BUTTONS*/
 /* Kendall */
 
+.article>img {
+  max-width: 5em;
+  height: auto;
+}
+
 #bannerLogo {
   background-color: #fff;
   border-radius: 8px;
@@ -3310,8 +3315,10 @@ table.alt tbody tr td {
 }
 
 .posts>div>article>.image img {
-  width: 100%;
+  width: 50%;
+  margin: 1em auto;
 }
+/*Kendall*/
 
 .posts>div>article>.content {
   padding: 2rem 2rem 0.1rem 2rem;
