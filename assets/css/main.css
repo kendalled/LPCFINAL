@@ -113,6 +113,7 @@ body {
   .vidCard{
     height: 31em;
   }
+
 }
 @media screen and (min-width: 777px){
   .vidCard{
@@ -3710,7 +3711,7 @@ body {
 }
 
 #c1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/tinyheader.jpg");
   background-position: center center;
   background-size: cover;
 }
