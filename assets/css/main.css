@@ -3711,7 +3711,7 @@ body {
 }
 
 #c1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/tinyheader.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/compressedheader.jpg");
   background-position: center center;
   background-size: cover;
 }
