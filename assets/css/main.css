@@ -49,7 +49,7 @@ body {
 .buttony span,.buttony:after{
 	font-family: 'lato', sans-serif;
   font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 /* Base buttony Styles */
@@ -395,13 +395,13 @@ border-radius: 10px;
 }
 
 .dieKeychain{
-  background-image: url(https://i.imgur.com/2ANST0K.png);
+  background-image: url(https://i.imgur.com/98xnrGK.png);
 }
 .enamelKeychain{
-  background-image: url(https://i.imgur.com/y2dKFKz.png);
+  background-image: url(https://i.imgur.com/vdjdH4y.png);
 }
 .offsetKeychain{
-  background-image: url(https://i.imgur.com/5y9Z6yh.png);
+  background-image: url(https://i.imgur.com/3dtXygQ.png);
 }
 .cc-selector-2 input:active+.drinkcard-cc, .cc-selector input:active+.drinkcard-cc {
   opacity: .9;
