@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,300i,400i,700i");
+@import url(lato.min.css);
 
 /*
 	Kendall Jackson
@@ -48,7 +48,6 @@ body {
 /* buttony Font Declarations */
 .buttony span,.buttony:after{
 	font-family: 'lato', sans-serif;
-  font-display: swap;
   font-weight: bold;
 	font-size: 16px;
 }
@@ -635,7 +634,6 @@ body {
 
 body, input, select, textarea {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-display: swap;
   font-weight: 200;
   font-size: 1rem;
   line-height: 1.65;
@@ -2579,7 +2577,6 @@ input[type="radio"]+label:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
-  font-display: swap;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -2713,7 +2710,6 @@ input[type="radio"]:focus+label:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
-  font-display: swap;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -2982,7 +2978,6 @@ ul.links li:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
-  font-display: swap;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -3804,7 +3799,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
-  font-display: swap;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -5497,7 +5491,6 @@ body.is-preload #banner .content.primary {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
-  font-display: swap;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
