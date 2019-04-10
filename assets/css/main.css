@@ -3858,7 +3858,7 @@ body {
   background-size: cover;
 }
 .no-webp #c1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.55)), url("../../images/header.jpg");
+  background-image: url("../../images/header.jpg");
 }
 
 .webp #c1 {
