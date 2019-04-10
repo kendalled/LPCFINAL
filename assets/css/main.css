@@ -3854,11 +3854,16 @@ body {
 }
 
 #c1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../../images/header.webp");
   background-position: center center;
   background-size: cover;
 }
+.no-webp #c1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.55)), url("../../images/header.jpg");
+}
 
+.webp #c1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.55)), url("../../images/header.webp");
+}
 #banner:after {
   -moz-transition: opacity 3s ease-in-out;
   -webkit-transition: opacity 3s ease-in-out;
