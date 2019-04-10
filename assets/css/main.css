@@ -3854,7 +3854,7 @@ body {
 }
 
 #c1 {
-  background-image: url('../../images/tinyheader.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.35)), url('../../images/compressedheader.jpg');
   background-position: center center;
   background-size: cover;
 }
