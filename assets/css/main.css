@@ -33,6 +33,12 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
+
+/*Kendall*/
+
+.tabs h3 {
+  font-weight: bold;
+}
 /* BUTTONS */
 /* Set Transition Speeds */
 .buttony{
