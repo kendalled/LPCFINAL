@@ -8,7 +8,7 @@
 
 <head>
 	<title>Lapel Pins & Coins: Customized in Minutes.</title>
-	<base href="https://kendalled.github.io/lpcfinal/">
+	<!--<base href="https://kendalled.github.io/lpcfinal/">--> 
 	<meta name="description" content="Lapel Pins & Coins has proudly offered pins, challenge coins, and keychains since 1999. Quotes & Mock-Ups: Free!" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
@@ -60,24 +60,25 @@
 		<section id="banner">
 			<div id="c1" class="content primary">
 				<!-- Logo and Button Div -->
+				<header id="bannerLogo">
+
+					<img src="images/lapelSVG.svg" alt="svg version of the lpc logo." style="max-width: 20.5em; height: auto;" />
+					<br />
+					<br />
+
+					<a href="#two" title="Scrolls to video about us." class="buttony fullWidth alternateColor1 noUL2 scrolly"><span>Watch Video</span></a>
+					&nbsp;
+					<a href="quote.html" title="Links to free quote page." class="buttony fullWidth alternateColor2 noUL2"><span>Free Quote</span></a>
+
+
+				</header>
 			</div>
 			<div id="c2" class="content secondary">
 				<div class="inner">
-					<header id="bannerLogo">
-
-						<img src="images/lapelSVG.svg" alt="svg version of the lpc logo." style="max-width: 20.5em; height: auto;" />
-						<br />
-						<br />
-
-						<a href="#two" title="Scrolls to video about us." class="buttony fullWidth alternateColor1 noUL2 scrolly"><span>Watch Video</span></a>
-						&nbsp;
-						<a href="quote.html" title="Links to free quote page." class="buttony fullWidth alternateColor2 noUL2"><span>Free Quote</span></a>
-
-
-					</header>
+					<!-- mobile header
 
 					<br />
-					<br />
+					<br /> -->
 					<h2>Proudly Designed in the U.S.A.</h2>
 
 					<!-- SLIDER -->
@@ -273,7 +274,7 @@
 	<script src="assets/js/main.js"></script>
 
 	<!--AJAX Loading of iFrame-->
-
+	<script src="assets/js/modernizr.js"></script>
 	<script>
 		$(function() {
 			$('#button').click(function() {
